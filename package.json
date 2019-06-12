@@ -7,7 +7,7 @@
     "serve": "node server.js",
     "test": "jest",
     "build": "webpack --mode production",
-    "dev": "webpack-dev-server --mode development --content-base dist --hot"
+    "dev": "webpack-dev-server --mode development --hot"
   },
   "keywords": [],
   "author": "varyukhin <vol_un@mail.ru>",
@@ -21,6 +21,7 @@
     "babel-jest": "^24.8.0",
     "babel-loader": "^8.0.6",
     "babel-polyfill": "^6.26.0",
+    "cors": "^2.8.5",
     "css-loader": "^2.1.1",
     "express": "^4.17.1",
     "html-webpack-plugin": "^3.2.0",

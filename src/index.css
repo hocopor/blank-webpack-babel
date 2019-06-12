@@ -1,4 +1,22 @@
 body {
   padding: 2em;
   width: auto;
+  position: relative;
+}
+
+.content {
+  filter: blur(1em);
+}
+
+.off {
+  position: relative;
+}
+
+.absolute {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  background-color: #444;
+  color: #fff;
+  padding: 1em;
 }

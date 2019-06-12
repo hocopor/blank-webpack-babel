@@ -1,17 +1,11 @@
 import "babel-polyfill";
+import App from "./js/app.js";
 
-const getBooks = async function() {
-  return fetch("//127.0.0.1:3000", {
-    mode: "no-cors",
-    headers: {
-      "Content-Type": "text/json"
-    }
-  });
-};
+// Components
+import Modal from "./js/components/modal/Modal.js";
 
-const books = getBooks();
-
-console.log(books);
+const app = App.init();
+app.register("modal", Modal);
 
 //
 //  Styles
